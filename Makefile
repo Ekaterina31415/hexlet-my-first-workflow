@@ -1,2 +1,2 @@
 sayHello:
-	nodejs ./index.js
+	nodejs ./../index.js

@@ -1,2 +1,2 @@
 sayHello:
-	nodejs index.js
+	node index.js

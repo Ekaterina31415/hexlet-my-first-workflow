@@ -1,0 +1,2 @@
+sayHello:
+	nodejs ./index.js

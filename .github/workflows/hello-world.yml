@@ -17,6 +17,7 @@ jobs:
       # run – произвольная bash-команда
       - name: run Makefile
         run: make sayHello
+      - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
         env:
